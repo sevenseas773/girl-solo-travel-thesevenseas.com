@@ -14,25 +14,24 @@ h1, h2{
 
 
 
-/*header*/
+/*firstview*/
 
 
-header {
+.firstview {
     text-align: center;
     background-image: url(img/header.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 780px;
-    padding-top: 108px;
+    background-size: cover;
+    height: 100vh;
 }
 
-p{
+.firstview p{
     font-size: 20px;
     font-family: 'Zen Old Mincho', serif;
     letter-spacing: 6px;
     color: #fff;
-
+    margin-top: 110px;
 }
+
 
 h1{
     font-size: 70px;
@@ -46,6 +45,23 @@ h1{
 
 
 /*advantages*/
+#advantages{
+    margin: auto;
+}
+
+#advantages h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: Italiana;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    letter-spacing: 20px;
+}
+
+.advantages-except-title{
+    margin: auto;
+}
+
 .advantages-text{
     background-color: #E0DACA;
     width: 600px;
@@ -56,13 +72,6 @@ h1{
     margin-bottom: 0;
 }
 
-#advantages h2{
-    font-size: 50px;
-    text-align: center;
-    font-family: Italiana;
-    margin-top: 100px;
-    margin-bottom: 55px;
-}
 
 #advantages h3{
     font-size: 20px;
@@ -84,8 +93,22 @@ h1{
     }
 
 
+.adv-number-title
+{
+    display: flex;
+}
 
-.adv-number-title{
+.adv-number-title1 {
+    font-size: 10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color:#C98529;
+    letter-spacing: 2px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.adv-number-title2 {
     font-size: 10px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -94,6 +117,18 @@ h1{
 }
 
 .adv-number{
+    display: flex;
+}
+
+.adv-number1{
+    font-size: 20px;
+    color:#333333;
+    font-weight: bold;
+    display: flex;
+    margin-right: 100px;
+}
+
+.adv-number2{
     font-size: 20px;
     color:#333333;
     font-weight: bold;
@@ -197,15 +232,18 @@ h1{
 #average h2{
     font-size: 50px;
     font-family: Italiana;
+    letter-spacing: 20px;
 }
 
 .subtitle{
     font-size: 18px;
+    letter-spacing: 3.6px;
 }
 
  .careful{
     font-size: 12px;
     color:#333333;
+    letter-spacing: 2.4px;
 }
 
 .images2{
@@ -310,13 +348,28 @@ h1{
     height: 207px;
     margin-top: 230px;
     margin-bottom: 30px;
+    padding: 20px;
 }
 
 #contact h2{
     font-family: Italiana;
     font-size: 50px;
-    margin: 56px;
+    letter-spacing: 20px;
 }
+
+.icon{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact img{
+    margin: 43px;
+}
+
+
+
+
 
 /*footer*/
 footer{
