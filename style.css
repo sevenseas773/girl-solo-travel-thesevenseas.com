@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+
+
+
+/*header*/
+
+
+
+header {
+    font-family: Italiana;
+    text-align: center;
+    background-image: url(img/header.png);
+    background-size: cover;
+    height: 780px;
+    padding-top: 108px;
+    color: #fff;
+}
+
+p{
+    font-size: 20px;
+
+}
+
+h1{
+    font-size: 70px;
+    
+}
+
+
+
+
+/*advantages*/
+.advantages-text{
+    background-color: #E0DACA;
+    background-size: 600px 460px;
+    padding: 30px 43px 30px 163px;
+}
+#advantages h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: Italiana;
+}
+
+#advantages h3{
+    font-size: 20px;
+}
+
+#advantages h4{
+    font-size: 15px;
+}
+
+
+#advantages h5{
+    font-size: 10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#advantages h6{
+    font-size: 20px;
+}
+
+
+.advantages-foto{
+    width: 341px;
+    height: 341px
+}
+
+
+/*fear*/
+
+#fears{
+    background-color: #E0DACA;
+    padding: 175px;
+
+}
+
+#fears h3{
+    font-size: 25px;
+    padding-bottom: 63px;
+}
+
+#fears p{
+    font-size: 15px;
+}
+
+.images1 {
+    width: 450px;
+    height: 414px;
+}
+
+.safe{
+    display: flex;
+    margin-bottom: 170px;
+}
+
+.safe-text{
+    margin-left: 100px;
+}
+
+.english{
+    display: flex;
+    margin-bottom: 170px;
+}
+
+.english-text{
+    margin-left: 100px;
+}
+
+.money{
+    display: flex;
+}
+
+.money-text{
+    margin-left: 100px;
+}
+
+/*average cost*/
+
+
+#average {
+    text-align:center;
+    margin: 100px;
+}
+
+#average h2{
+    font-size: 50px;
+    font-family: Italiana;
+}
+
+#average h3{
+    font-size: 18px;
+}
+
+#average p{
+    font-size: 12px;
+}
+
+.images2{
+    width: 274px;
+    height: 274px;
+    }
+
+.countries{
+    flex-wrap: wrap;
+    gap: 75px;
+    display: block;
+    text-align: left;
+    
+}
+
+
+
+.country1 {
+    justify-content: center;
+    margin: 118px;
+    display: inline-block;
+    flex-wrap: nowrap;
+
+
+}
+
+.country2 {
+    justify-content: center;
+    margin: 118px;
+    display: inline-block;
+    flex-wrap: nowrap;
+
+
+
+}
+
+.country3 {
+    justify-content: center;
+    margin: 118px;
+    display: inline-block;
+    flex-wrap: nowrap;
+
+}
+
+.country4 {
+    justify-content: center;
+    margin: 118px;
+    display: inline-block;
+
+}
+
+
+.country{
+    background-color: #E0DACA;
+    width: 350px;
+    height: 818px;
+    padding: 40px;
+    
+    display: inline-block;
+    margin: 38px;
+
+}
+
+.country h3{
+    font-size: 25px;
+    padding-top: 31.5px;
+}
+
+.country h4{
+    font-size: 35px;
+    padding-top: 53.5px;
+}
+
+.country h5{
+    font-size: 15px;
+    padding-top: 46.5px;
+}
+
+.country p{
+    font-size: 18px;
+    padding-top: 52.5px;
+}
+
+.country h6{
+    font-size: 15px;
+    padding-top: 37.5px;
+}
+
+/*contact*/
+#contact {
+    background-size: cover;
+    text-align: center;
+    background-image: url(img/contact.png);
+    height: 207px;
+    margin-top: 230px;
+    margin-bottom: 30px;
+}
+
+#contact h2{
+    font-family: Italiana;
+    font-size: 50px;
+    margin: 56px;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    padding: 30px;
+    padding-top: 0px;
+}
