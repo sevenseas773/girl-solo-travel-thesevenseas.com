@@ -1,38 +1,44 @@
 *{
+    font-family: 'Zen Old Mincho', serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     list-style: none;
-    font-family: 'Zen Old Mincho', serif;
+    color:#333333;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2{
     font-weight: normal;
-  }
+}
+
 
 
 
 /*header*/
 
 
-
 header {
-    font-family: Italiana;
     text-align: center;
     background-image: url(img/header.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 780px;
     padding-top: 108px;
-    color: #fff;
 }
 
 p{
     font-size: 20px;
+    font-family: 'Zen Old Mincho', serif;
+    letter-spacing: 6px;
+    color: #fff;
 
 }
 
 h1{
     font-size: 70px;
+    font-family: 'Italiana', serif;
+    letter-spacing: 14px;
+    color: #fff;
     
 }
 
@@ -42,57 +48,100 @@ h1{
 /*advantages*/
 .advantages-text{
     background-color: #E0DACA;
-    background-size: 600px 460px;
+    width: 600px;
+    height: 460px;
     padding: 30px 43px 30px 163px;
+    margin-left: 511px;
+    margin-right: 312px;
+    margin-bottom: 0;
 }
+
 #advantages h2{
     font-size: 50px;
     text-align: center;
     font-family: Italiana;
+    margin-top: 100px;
+    margin-bottom: 55px;
 }
 
 #advantages h3{
     font-size: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    
 }
 
-#advantages h4{
+.adv-main-text{
     font-size: 15px;
+    color:#333333;
+    letter-spacing: 3px;
 }
 
+#advantages br {
+    display: block;
+    content: "";
+    padding: 3px 0;
+    }
 
-#advantages h5{
+
+
+.adv-number-title{
     font-size: 10px;
     padding-top: 24px;
     padding-bottom: 24px;
+    color:#C98529;
+    letter-spacing: 2px;
 }
 
-#advantages h6{
+.adv-number{
     font-size: 20px;
+    color:#333333;
+    font-weight: bold;
 }
 
 
-.advantages-foto{
-    width: 341px;
-    height: 341px
+
+.adv-foto{
+    margin: -397px 782px 105px 311px;
 }
+
+.adv-airplane{
+    margin: -600px 311px 484px 996px;
+}
+
 
 
 /*fear*/
 
 #fears{
     background-color: #E0DACA;
-    padding: 175px;
+    background-size: cover;
+    padding: 175px 100px 175px 175px;
 
 }
 
 #fears h3{
+    font-family: 'Zen Old Mincho', serif;
     font-size: 25px;
     padding-bottom: 63px;
-}
+    text-decoration-line: underline;
+    text-decoration-color: #C98529;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 30px;
+    font-weight: normal;
+      }
+      
 
 #fears p{
     font-size: 15px;
+    color: #333333;
 }
+
+#fears br {
+    display: block;
+    content: "";
+    padding: 3px 0;
+    }
 
 .images1 {
     width: 450px;
@@ -106,15 +155,26 @@ h1{
 
 .safe-text{
     margin-left: 100px;
+    margin-right: 0;
+    letter-spacing: 2px;
 }
 
 .english{
-    display: flex;
     margin-bottom: 170px;
+    overflow: auto;
+    overflow: hidden;
 }
 
 .english-text{
-    margin-left: 100px;
+    float: left;
+    width: 93%;
+    margin-right: 50px;
+    letter-spacing: 2px;
+}
+
+
+.english-pic{
+    float: right;
 }
 
 .money{
@@ -123,6 +183,7 @@ h1{
 
 .money-text{
     margin-left: 100px;
+    
 }
 
 /*average cost*/
@@ -138,12 +199,13 @@ h1{
     font-family: Italiana;
 }
 
-#average h3{
+.subtitle{
     font-size: 18px;
 }
 
-#average p{
+ .careful{
     font-size: 12px;
+    color:#333333;
 }
 
 .images2{
@@ -160,14 +222,12 @@ h1{
 }
 
 
-
 .country1 {
     justify-content: center;
     margin: 118px;
     display: inline-block;
     flex-wrap: nowrap;
-
-
+    margin: 180px 0px 180px 0px;
 }
 
 .country2 {
@@ -175,9 +235,7 @@ h1{
     margin: 118px;
     display: inline-block;
     flex-wrap: nowrap;
-
-
-
+    margin: 180px 0px 180px 0px;
 }
 
 .country3 {
@@ -185,14 +243,15 @@ h1{
     margin: 118px;
     display: inline-block;
     flex-wrap: nowrap;
-
+    margin: 180px 0px 180px 0px;
 }
 
 .country4 {
     justify-content: center;
     margin: 118px;
     display: inline-block;
-
+    flex-wrap: nowrap;
+    margin: 180px 0px 180px 0px;
 }
 
 
@@ -200,36 +259,47 @@ h1{
     background-color: #E0DACA;
     width: 350px;
     height: 818px;
-    padding: 40px;
-    
+    padding: 30px;
     display: inline-block;
-    margin: 38px;
-
+    margin: 15px;
 }
 
 .country h3{
     font-size: 25px;
     padding-top: 31.5px;
+    font-weight: normal;
+    color: #333333;
+    text-decoration-line: underline;
+    text-decoration-color: #C98529;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 30px;
 }
 
-.country h4{
+.price{
     font-size: 35px;
     padding-top: 53.5px;
+    color: #333333;
 }
 
-.country h5{
+.actual-price{
     font-size: 15px;
     padding-top: 46.5px;
+    color: #333333;
+
 }
 
-.country p{
+.avr-text{
     font-size: 18px;
     padding-top: 52.5px;
+    color: #333333;
+
 }
 
-.country h6{
+.attention{
     font-size: 15px;
     padding-top: 37.5px;
+    color: #333333;
+
 }
 
 /*contact*/
