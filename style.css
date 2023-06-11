@@ -21,6 +21,7 @@ h1, h2{
     background-image: url(img/header.png);
     background-size: cover;
     height: 100vh;
+
 }
 
 .firstview p{
@@ -37,14 +38,12 @@ h1{
     font-family: 'Italiana', serif;
     letter-spacing: 14px;
     color: #fff;
-    
 }
 
 
 /*advantages*/
 #advantages{
     margin: auto;
-    position: relative;
 }
 
 #advantages h2{
@@ -57,8 +56,8 @@ h1{
 }
 
 
-
 .advantages-text{
+    position: relative;
     background-color: #E0DACA;
     width: 600px;
     height: 460px;
@@ -108,14 +107,14 @@ h1{
 
 .adv-foto{
     position:absolute;
-    top: 35%;
-    left: 22%;
+    top: 0px;
+    left: 250px;
 }
 
 .adv-airplane{
     position:absolute;
-    top: 10%;
-    left: 78%;
+    top: 0px;
+    right: 200px;
 }
 
 
@@ -126,7 +125,6 @@ h1{
     background-color: #E0DACA;
     background-size: cover;
     padding: 175px 100px 175px 175px;
-
 }
 
 #fears h3{
@@ -138,22 +136,17 @@ h1{
     display: inline-block;
     font-weight: normal;
     letter-spacing: 5px;
-      }
+    }
       
 
 #fears p{
     font-size: 15px;
     color: #333333;
     letter-spacing: 3px;
-    padding-top: 40px;
-    
+    padding-top: 40px;   
+    line-height: 28px;
 }
 
-#fears br {
-    display: block;
-    content: "";
-    padding: 3px 0;
-    }
 
 .images1 {
     width: 450px;
@@ -167,27 +160,18 @@ h1{
 
 .safe-text{
     margin-left: 100px;
-    margin-right: 0;
-    letter-spacing: 2px;
 }
 
 .english{
+    display: flex;
+    flex-direction: row-reverse;
     margin-bottom: 170px;
-    overflow: auto;
-    overflow: hidden;
 }
 
 .english-text{
-    float: left;
-    width: 93%;
-    margin-right: 50px;
-    letter-spacing: 2px;
+    margin-right: 200px;
 }
 
-
-.english-pic{
-    float: right;
-}
 
 .money{
     display: flex;
@@ -195,7 +179,6 @@ h1{
 
 .money-text{
     margin-left: 100px;
-    
 }
 
 /*average cost*/
@@ -442,43 +425,35 @@ h1{
     height: 43px;
 }
 
-}
+
 
 /*fear*/
 
+
 #fears{
     background-color: #fff;
-    background-size: cover;
     padding: 0;
     float: none;
     margin-bottom: 100px;
 }
 
 #fears h3{
-    font-family: 'Zen Old Mincho', serif;
     font-size: 17px;
-    padding-bottom: px;
     border-bottom: 1px solid #C98529;
+    padding-top: 10px;
     padding-bottom: 24px;
-    display: inline-block;
-    font-weight: normal;
     letter-spacing: 5px;
-      }
+}
       
 
 #fears p{
-    font-size: 15px;
+    font-size: 14px;
     color: #333333;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     padding-top: 40px;
     
 }
 
-#fears br {
-    display: block;
-    content: "";
-    padding: 3px 0;
-    }
 
 .images1 {
     width: 350px;
@@ -498,18 +473,15 @@ h1{
 
 .english{
     margin-bottom: 170px;
-    overflow: none;
+    display: block;
 }
 
 .english-text{
-    width: 93%;
-    margin-right: 0px;
+    margin-left: 0px;
+    margin-right: 0;
     letter-spacing: 2px;
 }
 
-.english-pic{
-    float: none;
-}
 
 .money{
     display: block;
@@ -517,7 +489,8 @@ h1{
 
 .money-text{
     margin-left: 0px;
-    
+    margin-right: 0;
+    letter-spacing: 2px;
 }
 
 
@@ -633,6 +606,10 @@ h1{
 
 
 /*footer*/
+
+
+
+}
 
 
 
