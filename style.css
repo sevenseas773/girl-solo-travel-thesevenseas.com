@@ -186,7 +186,7 @@ h1{
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
-    margin: 0 auto 170px;
+    margin: 0 auto ;
 }
 
 .safe-money{
@@ -382,6 +382,7 @@ h1{
 #advantages h2{
     font-size: 25px;
     letter-spacing: 5px;
+    margin: 60px;
 }
 
 
@@ -507,9 +508,9 @@ h1{
 }
 
 .money-text{
-    margin-left: 0px;
-    margin-right: 0;
     letter-spacing: 2px;
+    margin-bottom: 170px;
+    margin: 0 0 170px 0;
 }
 
 
