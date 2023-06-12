@@ -21,7 +21,6 @@ h1, h2{
     background-image: url(img/header.png);
     background-size: cover;
     height: 100vh;
-
 }
 
 .firstview p{
@@ -44,6 +43,10 @@ h1{
 /*advantages*/
 #advantages{
     margin: auto;
+}
+
+.advantages-except-title{
+    position: relative;
 }
 
 #advantages h2{
@@ -107,15 +110,16 @@ h1{
 
 .adv-foto{
     position:absolute;
-    top: 0px;
-    left: 250px;
+    top: 15%;
+    left: 20%;
 }
 
 .adv-airplane{
     position:absolute;
     top: 0px;
-    right: 200px;
+    right: 15%;
 }
+
 
 
 
@@ -155,31 +159,41 @@ h1{
 
 .safe{
     display: flex;
-    margin-bottom: 170px;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 170px;
 }
 
 .safe-text{
-    margin-left: 100px;
+    width: 450px;
+    height: 414px;
 }
 
 .english{
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 170px;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 170px;
 }
 
-.english-text{
-    margin-right: 200px;
+.safe-english{
+    width: 450px;
+    height: 414px;
 }
-
 
 .money{
     display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 170px;
 }
 
-.money-text{
-    margin-left: 100px;
+.safe-money{
+    width: 450px;
+    height: 414px;
 }
+
 
 /*average cost*/
 
@@ -348,7 +362,10 @@ footer{
 
 /*firstview*/
 
-
+.firstview {
+    background-image: url(img/header.sp.png);
+    height: 50vh;
+}
 
 .firstview p{
     font-size: 10px;
@@ -430,11 +447,12 @@ h1{
 /*fear*/
 
 
+
+
 #fears{
     background-color: #fff;
-    padding: 0;
+    padding: 20px;
     float: none;
-    margin-bottom: 100px;
 }
 
 #fears h3{
@@ -458,6 +476,7 @@ h1{
 .images1 {
     width: 350px;
     height: 323px;
+    margin: 0 auto ;
 }
 
 .safe{
@@ -523,7 +542,7 @@ h1{
 .country-box {
     justify-content: center;
     display: block;
-    margin: 100px 0px 0px 0px;
+    margin: 0px;   
 }
 
 
@@ -589,18 +608,20 @@ h1{
 
 /*contact*/
 
+#contact {
+    height: 180px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
 #contact h2{
+    font-family: Italiana;
     font-size: 20px;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
 }
 
 
-
-.icon-group{
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-}
 
 
 
