@@ -386,13 +386,7 @@ h1{
     margin: 60px;
 }
 
-.advantages-except-title{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 .advantages-text{
     background-color: #E0DACA;
@@ -477,8 +471,6 @@ h1{
     letter-spacing: 3px;
     padding-top: 40px;
     flex-wrap: wrap;
-    
-    
 }
 
 
@@ -492,6 +484,8 @@ h1{
     margin-bottom: 170px;
     display: block;
 }
+
+
 
 .safe-text{
     margin-left: 0px;
