@@ -21,6 +21,7 @@ h1, h2{
     background-image: url(img/header.png);
     background-size: cover;
     height: 100vh;
+    background-position: center;
 }
 
 .firstview p{
@@ -355,7 +356,7 @@ footer{
 
 /*ここまでに全てに共通のスタイル*/
 
-/*ここからスマホ用のスタイル*/
+/*ここからレスポンシブ対応のスタイル*/
 
 @media all and (max-width:1190px){
 
@@ -363,9 +364,7 @@ footer{
 /*firstview*/
 
 .firstview {
-    background-image: url(img/header.sp.png);
-    height: 50vh;
-    background-size: auto 100%;
+    background-image: url(img/header.png);
     background-repeat: no-repeat;
 }
 
@@ -388,12 +387,15 @@ h1{
 }
 
 .advantages-except-title{
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .advantages-text{
     background-color: #E0DACA;
-    position: relative;
     width: 390px;
     padding: 30px;
     justify-content: center;
@@ -441,11 +443,7 @@ h1{
 }
 
 .adv-airplane{
-    position:absolute;
-    top: 5%;
-    left: 80%;
-    width: 43px;
-    height: 43px;
+   display: none;
 }
 
 
@@ -459,7 +457,8 @@ h1{
     background-color: #fff;
     padding: 20px;
     float: none;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #fears h3{
@@ -573,7 +572,7 @@ h1{
     height: 706px;
     padding: 30px;
     justify-content: center;
-    margin: 50px 0 10px 20px;
+    margin: 50px auto 10px auto;
 }
 
 .country h3{
@@ -617,6 +616,9 @@ h1{
     letter-spacing: 2.6px;
 }
 
+.country-box{
+    justify-content: center;
+}
 /*contact*/
 
 #contact {
@@ -633,15 +635,9 @@ h1{
 }
 
 
-
-
-
-
-/*footer*/
-
-
-
 }
+
+
 
 
 
