@@ -357,7 +357,7 @@ footer{
 
 /*ここからスマホ用のスタイル*/
 
-@media all and (max-width:390px){
+@media all and (max-width:1190px){
 
 
 /*firstview*/
@@ -365,6 +365,8 @@ footer{
 .firstview {
     background-image: url(img/header.sp.png);
     height: 50vh;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }
 
 .firstview p{
@@ -385,9 +387,13 @@ h1{
     margin: 60px;
 }
 
+.advantages-except-title{
+    margin: 0 auto;
+}
 
 .advantages-text{
     background-color: #E0DACA;
+    position: relative;
     width: 390px;
     padding: 30px;
     justify-content: center;
@@ -453,6 +459,7 @@ h1{
     background-color: #fff;
     padding: 20px;
     float: none;
+    margin: 0 auto;
 }
 
 #fears h3{
@@ -465,10 +472,13 @@ h1{
       
 
 #fears p{
+    width: 350px;
     font-size: 14px;
     color: #333333;
     letter-spacing: 3px;
     padding-top: 40px;
+    flex-wrap: wrap;
+    
     
 }
 
@@ -554,6 +564,7 @@ h1{
 .countries{
     text-align: left;
 }
+
 
 
 .country{
