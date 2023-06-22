@@ -164,10 +164,6 @@ h1{
     margin: 0 auto 170px;
 }
 
-.safe-text{
-    width: 450px;
-    height: 414px;
-}
 
 .english{
     display: flex;
@@ -380,6 +376,12 @@ h1{
 
 /*advantages*/
 
+.advantages-except-title{
+    display: flex;
+    justify-content: center;
+    
+}
+
 #advantages h2{
     font-size: 25px;
     letter-spacing: 5px;
@@ -387,13 +389,11 @@ h1{
 }
 
 
-
 .advantages-text{
     background-color: #E0DACA;
     width: 390px;
     padding: 30px;
-    justify-content: center;
-    left: 0;
+    left: unset;
 }
 
 
@@ -453,6 +453,9 @@ h1{
     float: none;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #fears h3{
